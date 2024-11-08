@@ -1,0 +1,121 @@
+% PROFR. RIGOBERTO VICENTE CASTRO.
+
+% A CONTINUACIÓN DESCRIBO DETALLADAMENTE
+% QUÉ HACE CADA UNA DE LAS LÍNEAS DEL CÓDIGO
+% PORQUE COMPRENDER SU FUNCIONAMIENTO
+% PERMITE SABER POR QUÉ SON APROPIADAS
+% PARA ESTA ACTA CIRCUNSTANCIADA DE HECHOS.
+
+% Tipo de documento: ARTÍCULO,
+% es apropiado para este documento legal;
+% papel tamaño carta
+% y tipografía de 12 puntos para todo el documento.
+\documentclass[letterpaper,12pt]{article}
+
+% Margen de 2cm en cada lado de la página.
+\usepackage[margin=2cm]{geometry}
+
+% El siguiente paquete facilita la escritura en español,
+% afecta a la separación de palabras,
+% el formato de los encabezados
+% y otros elementos específicos de este idioma.
+\usepackage[spanish]{babel}
+
+% Este paquete facilita
+% la inclusión de CARACTERES ESPECIALES y ACENTOS
+% directamente en este código
+% para concentrarse en la redación.
+\usepackage[utf8]{inputenc}
+
+% Este paquete es necesario para utilizar la codificación T1,
+% así se podrán usar caracteres acentuados y otros símbolos especiales.
+% El paquete incluye caracteres como é, ñ, ü, etc.;
+% también, su uso permite que la separación silábica se realice correctamente.
+\usepackage[T1]{fontenc}
+
+% Este paquete es para usar la fuente PALATINO.
+% Palatino es una fuente serif clásica y legible;
+% perfecta para documentos formales.
+\usepackage{palatino}
+
+% Se utiliza el siguiente paquete
+% para personalizar la apariencia de las secciones,
+% (en "Configuraciones iniciales" están los detalles).
+\usepackage{titlesec}
+
+% Con este paquete es posible crear las listas descriptivas
+% para relatar ordenadamente
+% los ANTECEDENTES, HECHOS, DECLARACIONES y DETERMINACIONES.
+\usepackage{enumitem}
+
+% Este paquete es necesario para agregar texto de relleno.
+% Así se aprecia mejor como será el resultado final del documento.
+\usepackage{lipsum}
+
+% En la sección de FIRMAS
+% este paquete demuestra su utilidad
+% porque permite crear dos columnas
+% para los firmantes del documento.
+\usepackage{multicol} % Para el entorno multicolumnas
+
+% En el documento se necesitan incluir
+% secuencias numéricas largas
+% como el número de la Credencial para Votar;
+% este paquete permite la separación correcta
+% de esos datos cuando están al final de la línea,
+% así no se salen del margen.
+\usepackage{seqsplit}
+
+% Configuraciones iniciales
+\titleformat{\section}{\Large\bfseries\centering}{\thesection}{1em}{}
+
+% Datos del acta
+\newcommand{\localidad}{LOCALIDAD}
+\newcommand{\municipio}{MUNICIPIO}
+\newcommand{\estado}{ESTADO}
+\newcommand{\hora}{00:00}
+\newcommand{\dia}{29}
+\newcommand{\diadia}{VEINTINUEVE}
+\newcommand{\mes}{MES}
+\newcommand{\anno}{2024}
+\newcommand{\annoanno}{DOS MIL VEINTICUATRO}
+\newcommand{\escuela}{"HÉROE DE LA PATRIA"}
+\newcommand{\cct}{30EPR1234Q}
+\newcommand{\turno}{TURNO}
+\newcommand{\director}{NOMBRE1 PATERNO1 MATERNO1}
+\newcommand{\cargo}{profesora}
+\newcommand{\credencial}{\seqsplit{1234567890123}}
+\newcommand{\profa}{NOMBRE1 PATERNO1 MATERNO1}
+\newcommand{\cargoa}{profesora}
+\newcommand{\credenciala}{\seqsplit{1234567890123}}
+\newcommand{\profb}{NOMBRE2 PATERNO2 MATERNO2}
+\newcommand{\cargob}{profesor}
+\newcommand{\credencialb}{\seqsplit{1234567890123}}
+%\newcommand{\profc}{NOMBRE3 PATERNO3 MATERNO3}
+%\newcommand{\cargoc}{profesor}
+%\newcommand{\credencialc}{\seqsplit{1234567890123}}
+%\newcommand{\profd}{NOMBRE4 PATERNO4 MATERNO4}
+%\newcommand{\cargod}{profesor}
+%\newcommand{\credenciald}{\seqsplit{1234567890123}}
+
+% Aquí comienza el ACTA DE HECHOS.
+\begin{document}
+
+% ENCABEZADO del documento
+% con fecha del acta visible.
+\begin{center}
+    \textbf{\Large ACTA CIRCUNSTANCIADA DE HECHOS}\\
+    \vspace{12pt}
+    \textbf{\dia\ DE \mes\ DE \anno}\\
+    \vspace{12pt}
+\end{center}
+
+% Incluir archivos de secciones
+\input{preambulo.tex}
+\input{antecedentes.tex}
+\input{hechos.tex}
+\input{declaraciones.tex}
+\input{determinaciones.tex}
+\input{firmas.tex}
+
+\end{document}
