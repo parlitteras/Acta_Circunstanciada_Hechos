@@ -111,7 +111,7 @@ Estoy abierto a colaboraciones, sugerencias y mejoras por parte de la comunidad 
 
 Este trabajo está licenciado bajo la Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional. Para ver una copia de esta licencia, visita [https://creativecommons.org/licenses/by-nc-sa/4.0/](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
-Para consultas comerciales y asesoramiento personalizado, puedes contactarme en [tu-email@example.com](mailto:tu-email@example.com).
+Para consultas comerciales y asesoramiento personalizado, puedes contactarme en [rigoberto@parlitteras.com](mailto:tu-email@example.com).
 
 ---
 
