@@ -92,7 +92,7 @@ Este proyecto proporciona una **plantilla de LaTeX** para elaborar **Actas Circu
 - **Documentación y comentarios**: El código está extensamente comentado para facilitar su comprensión.
 - **Página de "Issues" en GitHub**: Puedes revisar si alguien más ha tenido la misma duda o abrir un nuevo "issue" para solicitar ayuda: [Issues](https://github.com/tu-usuario/ActaCircunstanciada/issues).
 - **Contacto directo**:
-  - **Correo electrónico**: [rigoberto@parlitteras.com](mailto:rigoberto@parlitteras.com) *(reemplaza esto con tu dirección de correo electrónico real)*.
+  - **Correo electrónico**: [rigoberto@parlitteras.com](mailto:rigoberto@parlitteras.com).
 
 ## ¿Quién mantiene y contribuye al proyecto?
 
